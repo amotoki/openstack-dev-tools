@@ -1,0 +1,122 @@
+{
+    "2018-12-10T00:51:30.949352+09:00": {
+        "Confirmed": {
+            "High": 6,
+            "Low": 86,
+            "Medium": 65,
+            "Undecided": 12,
+            "Wishlist": 43
+        },
+        "In Progress": {
+            "High": 3,
+            "Low": 33,
+            "Medium": 21,
+            "Undecided": 20,
+            "Wishlist": 24
+        },
+        "Incomplete": {
+            "Undecided": 11
+        },
+        "New": {
+            "Low": 25,
+            "Medium": 14,
+            "Undecided": 47,
+            "Wishlist": 26
+        },
+        "Triaged": {
+            "Low": 11,
+            "Medium": 5,
+            "Wishlist": 15
+        }
+    },
+    "2018-12-10T00:53:06.886294+09:00": {
+        "Confirmed": {
+            "High": 6,
+            "Low": 86,
+            "Medium": 65,
+            "Undecided": 12,
+            "Wishlist": 43
+        },
+        "In Progress": {
+            "High": 3,
+            "Low": 33,
+            "Medium": 21,
+            "Undecided": 20,
+            "Wishlist": 24
+        },
+        "Incomplete": {
+            "Undecided": 11
+        },
+        "New": {
+            "Low": 25,
+            "Medium": 14,
+            "Undecided": 47,
+            "Wishlist": 26
+        },
+        "Triaged": {
+            "Low": 11,
+            "Medium": 5,
+            "Wishlist": 15
+        }
+    },
+    "2018-12-13T00:21:25.826607+09:00": {
+        "Confirmed": {
+            "High": 6,
+            "Low": 86,
+            "Medium": 65,
+            "Undecided": 12,
+            "Wishlist": 43
+        },
+        "In Progress": {
+            "High": 3,
+            "Low": 33,
+            "Medium": 20,
+            "Undecided": 18,
+            "Wishlist": 25
+        },
+        "Incomplete": {
+            "Undecided": 11
+        },
+        "New": {
+            "Low": 25,
+            "Medium": 14,
+            "Undecided": 48,
+            "Wishlist": 26
+        },
+        "Triaged": {
+            "Low": 11,
+            "Medium": 5,
+            "Wishlist": 15
+        }
+    },
+    "2018-12-16T22:13:30.186301+09:00": {
+        "Confirmed": {
+            "High": 5,
+            "Low": 87,
+            "Medium": 65,
+            "Undecided": 12,
+            "Wishlist": 43
+        },
+        "In Progress": {
+            "High": 3,
+            "Low": 32,
+            "Medium": 20,
+            "Undecided": 18,
+            "Wishlist": 25
+        },
+        "Incomplete": {
+            "Undecided": 12
+        },
+        "New": {
+            "Low": 26,
+            "Medium": 13,
+            "Undecided": 46,
+            "Wishlist": 26
+        },
+        "Triaged": {
+            "Low": 11,
+            "Medium": 5,
+            "Wishlist": 15
+        }
+    }
+}

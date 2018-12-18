@@ -1,0 +1,98 @@
+{
+    "2018-12-10T00:57:32.254098+09:00": {
+        "Confirmed": {
+            "Critical": 1,
+            "High": 27,
+            "Low": 31,
+            "Medium": 55,
+            "Undecided": 35,
+            "Wishlist": 52
+        },
+        "Fix Committed": {
+            "Critical": 5,
+            "High": 3,
+            "Low": 5,
+            "Medium": 8,
+            "Undecided": 9,
+            "Wishlist": 3
+        },
+        "In Progress": {
+            "Critical": 3,
+            "High": 14,
+            "Low": 40,
+            "Medium": 48,
+            "Undecided": 61,
+            "Wishlist": 59
+        },
+        "Incomplete": {
+            "High": 4,
+            "Low": 4,
+            "Medium": 6,
+            "Undecided": 55,
+            "Wishlist": 3
+        },
+        "New": {
+            "Critical": 1,
+            "High": 9,
+            "Low": 12,
+            "Medium": 18,
+            "Undecided": 155,
+            "Wishlist": 25
+        },
+        "Triaged": {
+            "High": 5,
+            "Low": 2,
+            "Medium": 2,
+            "Undecided": 5,
+            "Wishlist": 45
+        }
+    },
+    "2018-12-16T22:11:20.119031+09:00": {
+        "Confirmed": {
+            "Critical": 1,
+            "High": 25,
+            "Low": 31,
+            "Medium": 57,
+            "Undecided": 34,
+            "Wishlist": 52
+        },
+        "Fix Committed": {
+            "Critical": 4,
+            "High": 3,
+            "Low": 5,
+            "Medium": 7,
+            "Undecided": 9,
+            "Wishlist": 3
+        },
+        "In Progress": {
+            "Critical": 3,
+            "High": 17,
+            "Low": 39,
+            "Medium": 46,
+            "Undecided": 61,
+            "Wishlist": 59
+        },
+        "Incomplete": {
+            "High": 4,
+            "Low": 5,
+            "Medium": 6,
+            "Undecided": 56,
+            "Wishlist": 3
+        },
+        "New": {
+            "Critical": 1,
+            "High": 10,
+            "Low": 12,
+            "Medium": 18,
+            "Undecided": 153,
+            "Wishlist": 26
+        },
+        "Triaged": {
+            "High": 5,
+            "Low": 1,
+            "Medium": 2,
+            "Undecided": 5,
+            "Wishlist": 45
+        }
+    }
+}
