@@ -94,5 +94,70 @@
             "Undecided": 5,
             "Wishlist": 45
         }
+    },
+    "2018-12-23T01:58:18.323079+09:00": {
+        "Confirmed": {
+            "Critical": 1,
+            "High": 25,
+            "Low": 33,
+            "Medium": 57,
+            "Total": 202,
+            "Undecided": 34,
+            "Wishlist": 52
+        },
+        "Fix Committed": {
+            "Critical": 4,
+            "High": 3,
+            "Low": 6,
+            "Medium": 7,
+            "Total": 32,
+            "Undecided": 9,
+            "Wishlist": 3
+        },
+        "In Progress": {
+            "Critical": 2,
+            "High": 18,
+            "Low": 39,
+            "Medium": 46,
+            "Total": 225,
+            "Undecided": 61,
+            "Wishlist": 59
+        },
+        "Incomplete": {
+            "Critical": 0,
+            "High": 4,
+            "Low": 5,
+            "Medium": 6,
+            "Total": 74,
+            "Undecided": 56,
+            "Wishlist": 3
+        },
+        "New": {
+            "Critical": 1,
+            "High": 11,
+            "Low": 12,
+            "Medium": 18,
+            "Total": 221,
+            "Undecided": 153,
+            "Wishlist": 26
+        },
+        "Summary": {
+            "Critical": 8,
+            "High": 66,
+            "Low": 96,
+            "Medium": 136,
+            "Total": 814,
+            "Undecided": 320,
+            "Wishlist": 188
+        },
+        "Triaged": {
+            "Critical": 0,
+            "High": 5,
+            "Low": 1,
+            "Medium": 2,
+            "Total": 60,
+            "Undecided": 7,
+            "Wishlist": 45
+        }
     }
 }

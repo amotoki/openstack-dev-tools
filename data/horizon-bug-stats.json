@@ -118,5 +118,61 @@
             "Medium": 5,
             "Wishlist": 15
         }
+    },
+    "2018-12-23T01:58:32.036594+09:00": {
+        "Confirmed": {
+            "Critical": 0,
+            "High": 4,
+            "Low": 87,
+            "Medium": 63,
+            "Total": 209,
+            "Undecided": 12,
+            "Wishlist": 43
+        },
+        "In Progress": {
+            "Critical": 0,
+            "High": 3,
+            "Low": 32,
+            "Medium": 22,
+            "Total": 98,
+            "Undecided": 16,
+            "Wishlist": 25
+        },
+        "Incomplete": {
+            "Critical": 0,
+            "High": 1,
+            "Low": 0,
+            "Medium": 0,
+            "Total": 13,
+            "Undecided": 12,
+            "Wishlist": 0
+        },
+        "New": {
+            "Critical": 0,
+            "High": 0,
+            "Low": 26,
+            "Medium": 13,
+            "Total": 112,
+            "Undecided": 47,
+            "Wishlist": 26
+        },
+        "Summary": {
+            "Critical": 0,
+            "High": 8,
+            "Low": 156,
+            "Medium": 103,
+            "Total": 463,
+            "Undecided": 87,
+            "Wishlist": 109
+        },
+        "Triaged": {
+            "Critical": 0,
+            "High": 0,
+            "Low": 11,
+            "Medium": 5,
+            "Total": 31,
+            "Undecided": 0,
+            "Wishlist": 15
+        }
     }
 }
