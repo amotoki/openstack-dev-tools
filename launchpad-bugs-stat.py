@@ -42,6 +42,18 @@ for bugtask in bugtasks:
     stat[status][priority] += 1
 
 
+# Calculate total per status
+total = collections.defaultdict(int)
+for status in stat:
+    count = stat[status]
+    status_total = sum(count.values())
+    stat[status]['Total'] = status_total
+    for p in KNOWN_PRIORITIES:
+        total[p] += count[p]
+    total['Total'] += status_total
+stat['Summary'] = total
+
+
 if args.stat_file:
     timestamp = datetime.now(timezone.utc).astimezone().isoformat()
     saved_data[timestamp] = stat
@@ -54,13 +66,27 @@ unknown_statuses = set(stat.keys()) - set(KNOWN_STATUSES)
 x = PrettyTable()
 
 x.field_names = ['Status'] + KNOWN_PRIORITIES + ['Total']
+
+x.align['Status'] = "c"
+for p in KNOWN_PRIORITIES:
+    x.align[p] = "r"
+x.align['Total'] = "r"
+
 for status in KNOWN_STATUSES + list(unknown_statuses):
+    if status == 'Summary':
+        continue
     count = stat[status]
     d = [status]
     for p in KNOWN_PRIORITIES:
         d.append(count.get(p, 0))
-    total = sum(d[1:])
-    d.append(total)
+    d.append(count['Total'])
     x.add_row(d)
+
+# Summary line
+d = []
+d.append('Summary')
+d += [stat['Summary'][p] for p in KNOWN_PRIORITIES]
+d.append(stat['Summary']['Total'])
+x.add_row(d)
 
 print(x)
